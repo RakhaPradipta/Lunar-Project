@@ -1,0 +1,11 @@
+# Secret JWT lokal (development) — jangan di-commit
+jwt_dev_secret.txt
+
+# Database SQLite lokal
+desawisata.db
+desawisata.db-shm
+desawisata.db-wal
+
+# Build output
+bin/
+obj/

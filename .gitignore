@@ -1,0 +1,33 @@
+# ============================================================================
+# Secret environment — JANGAN pernah di-commit!
+# .env berisi JWT_SECRET_KEY, SEED_ADMIN_PASSWORD, GROQ_API_KEY, dll.
+# Template yang aman di-commit: .env.example
+# ============================================================================
+.env
+.env.local
+.env.*.local
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Dependencies & build output (frontend + backend)
+node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+bin/
+obj/
+*.log
+npm-debug.log*
+
+# Database SQLite lokal & secret dev backend
+*.db
+*.db-shm
+*.db-wal
+jwt_dev_secret.txt
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
